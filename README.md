@@ -9,7 +9,7 @@ To help you find professors, I request three fields on input from your end:
 2. Department of Study (Ex: CS, EE) <br>
 3. Research Interests (Ex: NLP, CV) <br> <br>
 ![Search Page](index.png)
-<br<br>
+<br><br>
 Then, I search for URLs all over the Internet with Metaphor API to find professors of your interest hidden in different corners of the World Wide Web. <br><br>
 After that, I use the extracted information from the relevant URLs and hand it over to my LLM pal (OpenAI in this instance) who makes sense of the data and tells me all about it. <br><br>
 Lastly, I give you the names of possible professors you can reach out to pursue your research interests and shine bright in the world of academia. <br> <br>
