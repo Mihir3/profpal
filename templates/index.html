@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <title>profpal</title>
+</head>
+<body class='bg-white'>
+
+    <div class=" min-h-screen flex items-center justify-center px-16">
+        <div class="relative w-full max-w-lg">
+          <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+          <div class="m-10 relative space-y-10">
+            
+            <form method="POST">
+              <div class="p-10 bg-white rounded-lg flex items-center justify-between space-x-10 ">
+              <div class="flex-1">
+                <div class="h-full w-full bg-white-300 rounded">
+                  <p class="mt-2 font-mono">With the help of Metaphor and OpenAI, I can help you find the professors you're looking for.</p><br>
+                  <p class="mt-2 font-mono">Just help me with :</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 bg-white rounded-lg flex items-center justify-between space-x-10 ">
+              <div class="flex-1">
+                
+                <div class="h-8 w-32 bg-white-300 rounded">
+                    <p class="mt-2 font-mono"><label>University Name : </label></p>
+                </div>
+              </div>
+              <div>
+                <div class="w-15 h-8">
+                    <textarea class="w-full p-2 border rounded-lg bg-purple-300 font-mono" title='university' name="university_name" rows="2" cols="20" required></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 bg-white rounded-lg flex items-center justify-between space-x-10">
+              <div class="flex-1">
+                <div class="h-8 w-32 bg-white-300 rounded">
+                    <p class="mt-2 font-mono"><label>Department of Study : </label></p>
+                </div>
+              </div>
+              <div>
+                <div class="w-15 h-8 ">
+                    <textarea class="w-full p-2 border rounded-lg bg-yellow-300 font-mono" title='department' name="department_of_study" rows="2" cols="20" required></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 bg-white rounded-lg flex items-center justify-between space-x-10">
+              <div class="flex-1">
+                <div class="h-8 w-32 bg-white-300 rounded">
+                    <p class="mt-2 font-mono"><label>Research Interests : </label></p>
+                </div>
+              </div>
+              <div>
+                <div class="w-15 h-8 ">
+                    <textarea class="w-full p-2 border rounded-lg bg-pink-300 font-mono" title='research' name="research_interests" rows="2" cols="20" required></textarea>
+                </div>
+              </div>
+            </div>
+            <div class='p-10 bg-white rounded-lg flex items-center justify-between space-x-10'>
+                <button type="submit" class=" mt-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Go</button>
+            </div>
+            
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
