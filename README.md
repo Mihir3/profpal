@@ -1,6 +1,6 @@
 # profpal
 
-Hi, I'm profpal - an AI assistant written in Python (Flask) built with Metaphor and OpenAI and I help students (mostly master's, PhDs, and enthusiastic undergrads) find professors in their respective research fields of interest :)
+Hi, I'm profpal - an AI assistant written in Python (Flask) built with Metaphor and OpenAI and I help students (mostly master's, PhDs, and enthusiastic undergrads) find professors in their respective research fields of interest.
 <br> <br>
 ![Landing Page](landing.png)
 <br>
