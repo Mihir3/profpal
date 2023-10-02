@@ -2,9 +2,9 @@ from flask import Flask, render_template, request
 import os
 import openai
 from metaphor_python import Metaphor
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
-metaphor = Metaphor("184b7906-f45b-4260-b0ca-95fc3f277197")
+metaphor = Metaphor(os.getenv("METAPHOR_API_KEY"))
 
 app = Flask(__name__)
 
